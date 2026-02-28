@@ -2,12 +2,12 @@ const teamMembers = [
     {
         name: "Mohcine Rafik",
         role: "Videographer",
-        image: "/team-placeholder.jpg" // Placeholder for local assets folder
+        image: "/teams/mohcine rafik.png"
     },
     {
         name: "Abdessamad Ghazi",
         role: "Photographer",
-        image: "/team-placeholder.jpg"
+        image: "/teams/abdelsamad ghazi.webp"
     },
     {
         name: "Othmane Haddach",
@@ -17,7 +17,7 @@ const teamMembers = [
     {
         name: "Soukaina Laanaya",
         role: "Social Media Marketer",
-        image: "/team-placeholder.jpg"
+        image: "/teams/soukaina .jpeg"
     }
 ];
 
