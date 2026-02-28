@@ -65,7 +65,7 @@ const About = () => {
                                     src={member.image}
                                     alt={member.name}
                                     loading="lazy"
-                                    className="w-full h-full object-contain scale-[1.15] group-hover:scale-[1.25] opacity-80 group-hover:opacity-100 transition-all duration-700 ease-in-out drop-shadow-2xl"
+                                    className="w-full h-full object-contain scale-[1.35] group-hover:scale-[1.50] opacity-80 group-hover:opacity-100 transition-all duration-700 ease-in-out drop-shadow-2xl"
                                 />
 
                                 {/* Fallback Icon for Placeholder (Will show until real images are used) */}
