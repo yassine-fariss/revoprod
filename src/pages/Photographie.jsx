@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 // Placeholder image array - will be replaced with real assets later
 const photoGallery = [
-    { id: 1, src: '/photo-1.jpg', alt: 'Commercial Shoot' },
+    { id: 1, src: '/DSC01111-1.jpg.jpeg', alt: 'Commercial Shoot' },
     { id: 2, src: '/photo-2.jpg', alt: 'Fashion Photography' },
     { id: 3, src: '/photo-3.jpg', alt: 'Portrait Session' },
     { id: 4, src: '/photo-4.jpg', alt: 'Event Coverage' },
