@@ -60,12 +60,12 @@ const About = () => {
                             className="group relative overflow-hidden rounded-2xl bg-white/5 border border-white/10 hover:border-revo-gold transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(198,167,94,0.15)] flex flex-col"
                         >
                             {/* Image Container with aspect ratio forcing a square */}
-                            <div className="relative aspect-square w-full overflow-hidden bg-black/50">
+                            <div className="relative aspect-square w-full overflow-hidden bg-black/20 flex items-center justify-center p-2">
                                 <img
                                     src={member.image}
                                     alt={member.name}
                                     loading="lazy"
-                                    className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-in-out"
+                                    className="max-w-full max-h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity duration-700 ease-in-out drop-shadow-lg"
                                 />
 
                                 {/* Fallback Icon for Placeholder (Will show until real images are used) */}
